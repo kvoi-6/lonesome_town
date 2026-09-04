@@ -9,7 +9,7 @@ body{
     color :#ffffff;
     font-size: 21px;
     font-family: "calibri";
-    background-size:auto;
+    background-size:contain;
     background-position: center;
     text-shadow: 0px 2px 4px#0d082d;
 }
