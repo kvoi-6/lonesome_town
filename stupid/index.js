@@ -17,9 +17,12 @@ async function goop() {
   for (let i=0; i<imgData.data.length; i+=4) {
     let arr = imgData.data;
     console.log("R: " + arr[i] + " G: " + arr[i+1] + " B: " + arr[i+2] + " A: " + arr[i+3]);
-    sleep(100);
   }
 }
 image.addEventListener("load", () => {
   goop();
 });
+
+function getPixelArea() {
+  
+}
