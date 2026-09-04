@@ -20,6 +20,13 @@ body{
   align-items: center;
   background-color: #35304b;
 }
+
+.project{
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #504066;
+}
+
 p{
   color: #bcd1e1
 }
