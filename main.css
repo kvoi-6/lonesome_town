@@ -8,9 +8,12 @@ body{
     text-align: center;
     color :#ffffff;
     font-size: 21px;
-    font-family: "";
-    
+    font-family: "calibri";
+    background-size:auto;
+    background-position: center;
+    text-shadow: 0px 2px 4px#0d082d;
 }
+
 .horizontal_stuff{
   margin-left: 0%;
   margin-right: 0%;
@@ -39,7 +42,8 @@ input{
   padding-right: 24px;
   padding-bottom: 7px;
   padding-top: 7px;
-
+  font-family: "calibri";
+  font-weight:bold;
 }
 
 table {
@@ -77,20 +81,20 @@ footer{
 
 /* unvisited link */
 a:link {
-   color: #79d9ff;
+   color: #fe3b96;
 }
   
 /* visited link */
 a:visited {
-  color: #4f83f4;
+  color: #c93c9d;
 }
 
 /* mouse over link */
 a:hover {
-  color: #c7f7ff;
+  color: #ff5e84;
 }
  
 /* selected link */
 a:active {
-  color: #dcfffd;
+  color: #ff8f9a;
 } 
