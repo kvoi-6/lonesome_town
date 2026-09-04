@@ -17,7 +17,13 @@ var messages = [
     "help im trapped in a web page",
     "How many toes DO sharks have?",
     "Gorganzola Mozzarella",
-    "Goodbye"
+    "Goodbye",
+    "Cows with Nouns are the only means to survival",
+    "https://www.youtube.com/@deceasedlettuce",
+    ".;,;.",
+    "Jacob Horse is here!",
+    "Asymmetrical Maths is the way to the future",
+    "Okay?"
 ]
 
 async function generate(pointCount) {
