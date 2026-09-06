@@ -2,7 +2,7 @@
 
 const MAX_SIZE = 600
 
-let images = ['img/main-page-bg.png', 'img/game-page-bg.png', 'img/omega-2-preview-0.png',]
+let images = ['img/main-page-bg.png', 'img/game-page-bg.png', 'img/project-page-bg.png', 'img/omega-2-preview-0.png']
 
 function load_image(path) {
     let myImage = new Image()
@@ -20,5 +20,5 @@ function load_image(path) {
 }
 
 for (let i=0; i<images.length; i++) {
-    load_image(images[i])
+   load_image(images[i])
 }

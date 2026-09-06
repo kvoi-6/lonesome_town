@@ -4,30 +4,36 @@ body{
     margin-top: 0;
     margin-bottom: 0;
 
-    background-color: #5d4a70;
     text-align: center;
     color :#ffffff;
     font-size: 21px;
     font-family: "calibri";
-    background-size:contain;
+
+    
+
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
+
     text-shadow: 0px 2px 4px#0d082d;
 }
-
+canvas {
+  image-rendering: pixelated;
+}
 .horizontal_stuff{
-  margin-left: 0%;
-  margin-right: 0%;
+
   margin-top: 0%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #35304b;
+  background-color: rgba(16, 8, 32, 0.7);
 }
 
 .project{
   margin-left: 10%;
   margin-right: 10%;
-  background-color: #504066;
+  background-color: rgba(59, 40, 97, 0.5);
 }
 
 p{

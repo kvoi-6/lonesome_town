@@ -1,0 +1,31 @@
+<head>
+   <title>Hello!!!</title>
+   
+   <link rel="stylesheet" href="../main.css">
+   <link rel="stylesheet" href="drawing.css">
+
+   <script src = "index.js"> </script>
+   
+</head>
+
+<body>
+    <div class="horizontal_stuff">
+        <br>
+        <input type="button" onclick="location.href='../projects.html';" value="Back" />
+        <br>
+    </div>
+
+    <div class="horizontal_stuff" style="background-color: black;">
+        <div id="toolbar">
+            <input type="button" value="Draw" onclick="selectTool(0)"/><br>
+            <input type="button" value="Erase" onclick="selectTool(1)"/><br>
+            <input type="button" value="???" onclick="selectTool(2)"/><br>
+
+        </div>
+
+        <div>
+            <canvas style="position: relative; right:10px; top:10; bottom: 10;"></canvas>
+            <script src = "drawing.js"> </script>
+        </div>
+    </div>
+   </body>
