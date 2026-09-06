@@ -2,9 +2,6 @@ body{
     background-color: black;
 }
 
-input.tool{
-    type:"button";  value:"Back";
-    onclick: "console.log('hi');";
-    
+canvas {
+  image-rendering: pixelated;
 }
-

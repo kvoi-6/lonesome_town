@@ -18,9 +18,7 @@ body{
 
     text-shadow: 0px 2px 4px#0d082d;
 }
-canvas {
-  image-rendering: pixelated;
-}
+
 .horizontal_stuff{
 
   margin-top: 0%;
